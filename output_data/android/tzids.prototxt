@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ianaVersion: "2025a"
 =======
 ianaVersion: "2025b"
@@ -16,6 +17,9 @@ ianaVersion: "2026b"
 =======
 ianaVersion: "2026c"
 >>>>>>> 2b440fc7 (DO NOT MERGE Update Android TZDB from 2026b to 2026c. [T])
+=======
+ianaVersion: "2026e"
+>>>>>>> 16cb5998 (DO NOT MERGE Update Android TZDB from 2026c to 2026e. [T])
 countryMappings {
   isoCode: "ad"
   timeZoneIds: "Europe/Andorra"
@@ -441,8 +445,9 @@ countryMappings {
   timeZoneIds: "America/Blanc-Sablon"
   timeZoneIds: "America/Atikokan"
   timeZoneIds: "America/Regina"
+  timeZoneIds: "America/Rankin_Inlet"
   timeZoneIds: "America/Dawson_Creek"
-  timeZoneIds: "America/Inuvik"
+  timeZoneIds: "America/Cambridge_Bay"
   timeZoneIds: "America/Whitehorse"
   timeZoneLinks {
     alternativeId: "America/Montreal"
@@ -530,13 +535,8 @@ countryMappings {
     fromMillis: 73472400000
   }
   timeZoneReplacements {
-    replacedId: "America/Rankin_Inlet"
-    replacementId: "America/Winnipeg"
-    fromMillis: 1130659200000
-  }
-  timeZoneReplacements {
     replacedId: "America/Resolute"
-    replacementId: "America/Winnipeg"
+    replacementId: "America/Rankin_Inlet"
     fromMillis: 1173600000000
   }
   timeZoneReplacements {
@@ -550,9 +550,9 @@ countryMappings {
     fromMillis: 1425808800000
   }
   timeZoneReplacements {
-    replacedId: "America/Cambridge_Bay"
-    replacementId: "America/Inuvik"
-    fromMillis: 986115600000
+    replacedId: "America/Inuvik"
+    replacementId: "America/Edmonton"
+    fromMillis: 294228000000
   }
   timeZoneReplacements {
     replacedId: "America/Dawson"
