@@ -2220,12 +2220,6 @@ countries:<
     alternativeIds: "Asia/Choibalsan"
     alternativeIds: "Asia/Ulan_Bator"
   >
-  timeZoneMappings:<
-    utcOffset:"8:00"
-    id:"Asia/Choibalsan"
-    # 38K
-    priority:38
-  >
 
   timeZoneMappings:<
     utcOffset:"7:00"
